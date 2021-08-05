@@ -25,19 +25,18 @@ import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
 import team4 from "assets/img/theme/team-4-800x800.jpg";
-import 
-import busmall1 from "src/assets/img/profileImages/busmall1.PNG";
-import busmall2 from "src/assets/img/profileImages/busmall2.PNG";
-import busmall3 from "src/assets/img/profileImages/bussmall3.PNG";
-import cookieStand from "src/assets/img/profileImages/cookie-stand.PNG";
-import petserviescenter from "src/assets/img/profileImages/petserviescenter.PNG";
-import psc2 from "src/assets/img/profileImages/psc2.PNG";
-import psc3 from "src/assets/psc2/profileImages/psc3.PNG";
-import psc4 from "src/assets/psc2/profileImages/psc4.PNG";
-import psc5 from "src/assets/img/profileImages/psc5.PNG";
-import sales1 from "src/assets/sales1/profileImages/sales1.PNG";
-import sales2 from "src/assets/img/profileImages/sales2.PNG";
-import yazan from "src/assets/img/profileImages/yazan3.jpg";
+import busmall1 from "assets/img/profileImages/busmall1.PNG";
+import busmall2 from "assets/img/profileImages/busmall2.PNG";
+import busmall3 from "assets/img/profileImages/bussmall3.PNG";
+import cookieStand from "assets/img/profileImages/cookie-stand.PNG";
+import petserviescenter from "assets/img/profileImages/petserviescenter.PNG";
+import psc2 from "assets/img/profileImages/psc2.PNG";
+import psc3 from "assets/img/profileImages/psc3.PNG";
+import psc4 from "assets/img/profileImages/psc4.PNG";
+import psc5 from "assets/img/profileImages/psc5.PNG";
+import sales1 from "assets/img/profileImages/sales1.PNG";
+import sales2 from "assets/img/profileImages/sales2.PNG";
+import yazan from "assets/img/profileImages/yazan3.jpg";
 // reactstrap components
 import {
   Badge,
