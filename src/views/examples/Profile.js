@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "/assets/profileImages/yazan3.jpg";
+import profile from "assets/img/profileImages/yazan3.jpg";
 class Profile extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
