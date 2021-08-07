@@ -37,6 +37,8 @@ import psc5 from "assets/img/profileImages/psc5.PNG";
 import sales1 from "assets/img/profileImages/sales1.PNG";
 import sales2 from "assets/img/profileImages/sales2.PNG";
 import yazan from "assets/img/profileImages/yazan3.jpg";
+import aboutme from "assets/img/profileImages/aboutme.PNG"
+import hornedbeasts from "assets/img/profileImages/hornedbeasts.PNG"
 // reactstrap components
 import {
   Badge,
@@ -97,7 +99,7 @@ class Landing extends React.Component {
                       </h1>
                       <p className="lead text-white">
                         Soft ware development is great field,but its need to be patient
-                        and git new information in each comming day and keep developing your 
+                        and git new information in each comming day and keep developing your
                         skills in programming,So I love this field and hope to be Great developer
                         ensha allah.
                       </p>
@@ -162,8 +164,8 @@ class Landing extends React.Component {
                             petserviescenter
                           </h6>
                           <p className="description mt-3">
-                           A website that provides all the nedded things for a pets,
-                           from the food and medical atention and adopting.
+                            A website that provides all the nedded things for a pets,
+                            from the food and medical atention and adopting.
                           </p>
                           {/* <div>
                             <Badge color="primary" pill className="mr-1">
@@ -176,7 +178,7 @@ class Landing extends React.Component {
                               creative
                             </Badge>
                           </div> */}
-                           <img
+                          <img
                             style={{ width: "100%" }}
                             src={petserviescenter}
                             alt=""
@@ -185,14 +187,15 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="primary"
                             href="#pablo"
-                            onClick={(e) => {e.preventDefault()
+                            onClick={(e) => {
+                              e.preventDefault()
                               window.open(
                                 "https://pet-service-center.github.io/pets-care-center/"
                               );
-                 
+
                             }}
                           >
-                           View the website
+                            View the website
                           </Button>
                         </CardBody>
                       </Card>
@@ -204,10 +207,10 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                          Salmon Cookies
+                            Salmon Cookies
                           </h6>
                           <p className="description mt-3">
-                          Website where customers can Buy healthy and
+                            Website where customers can Buy healthy and
                             delicious cookies, and allow the owner to track all
                             of sales data for his stands also allow him to add new stands to the sales data.
                           </p>
@@ -225,20 +228,21 @@ class Landing extends React.Component {
                           <img
                             style={{ width: "100%" }}
                             src={cookieStand}
-                            alt=""
+                            alt="cookieStand"
                           />
                           <Button
                             className="mt-4"
                             color="success"
                             href="#pablo"
-                            onClick={(e) => {e.preventDefault()
+                            onClick={(e) => {
+                              e.preventDefault()
                               window.open(
                                 "https://yazanabdulhafez.github.io/cookie-stand/"
                               );
-                 
+
                             }}
                           >
-                             View the website
+                            View the website
                           </Button>
                         </CardBody>
                       </Card>
@@ -250,10 +254,10 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                          Bus Mall
+                            Bus Mall
                           </h6>
                           <p className="description mt-3">
-                          A website where the user can view the gallery of
+                            A website where the user can view the gallery of
                             products, vote on the products, and view the results
                             at the end as a text and chart.
                           </p>
@@ -268,7 +272,7 @@ class Landing extends React.Component {
                               launch
                             </Badge>
                           </div> */}
-                           <img
+                          <img
                             style={{ width: "100%" }}
                             src={busmall1}
                             alt=""
@@ -277,14 +281,105 @@ class Landing extends React.Component {
                             className="mt-4"
                             color="warning"
                             href="#pablo"
-                            onClick={(e) => {e.preventDefault()
+                            onClick={(e) => {
+                              e.preventDefault()
                               window.open(
                                 "https://yazanabdulhafez.github.io/bus-mall/"
                               );
-                 
+
                             }}
                           >
-                           View the website
+                            View the website
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                        <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                            <i className="ni ni-check-bold" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            About Me
+                          </h6>
+                          <p className="description mt-3">
+                            A website where the user can know about me more information and interists.
+                          </p>
+                          {/* <div>
+                            <Badge color="warning" pill className="mr-1">
+                              marketing
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              product
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              launch
+                            </Badge>
+                          </div> */}
+                          <img
+                            style={{ width: "100%" }}
+                            src={aboutme}
+                            alt=""
+                          />
+                          <Button
+                           className="mt-4"
+                           color="primary"
+                           href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault()
+                              window.open(
+                                "https://yazanabdulhafez.github.io/About_Me/"
+                              );
+
+                            }}
+                          >
+                            View the website
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                        <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            Horned Beasts
+                          </h6>
+                          <p className="description mt-3">
+                            A website where the user can vote for the favorite beast from beasts gallery.
+                          </p>
+                          {/* <div>
+                            <Badge color="warning" pill className="mr-1">
+                              marketing
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              product
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              launch
+                            </Badge>
+                          </div> */}
+                          <img
+                            style={{ width: "100%" }}
+                            src={hornedbeasts}
+                            alt=""
+                          />
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault()
+                              window.open(
+                                "https://blissful-allen-bd06f2.netlify.app/"
+                              );
+
+                            }}
+                          >
+                            View the website
                           </Button>
                         </CardBody>
                       </Card>
@@ -307,7 +402,7 @@ class Landing extends React.Component {
                     alt="..."
                     className="img-fluid floating"
                     src={sales2}
-                  /> 
+                  />
                 </Col>
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
@@ -316,7 +411,7 @@ class Landing extends React.Component {
                     </div>
                     <h3> CSS</h3>
                     <p>
-                    CSS is a powerful tool to design a website. Here you can
+                      CSS is a powerful tool to design a website. Here you can
                       find some of my works on CSS , check the website.
                     </p>
                     <ul className="list-unstyled mt-5">
@@ -331,7 +426,7 @@ class Landing extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                          <a
+                            <a
                               href="https://yazanabdulhafez.github.io/chocolate-pizza-301/"
                               className="mb-0"
                             >
@@ -340,7 +435,7 @@ class Landing extends React.Component {
                           </div>
                         </div>
                       </li>
-                      {/* <li className="py-2">
+                      <li className="py-2">
                         <div className="d-flex align-items-center">
                           <div>
                             <Badge
@@ -351,7 +446,7 @@ class Landing extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
+                            <h6 className="mb-0">projects at 301 level</h6>
                           </div>
                         </div>
                       </li>
@@ -367,13 +462,13 @@ class Landing extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Super friendly support team
+                            projects at 401 level
                             </h6>
                           </div>
                         </div>
-                      </li>*/}
+                      </li>
                     </ul>
-                  </div> 
+                  </div>
                 </Col>
               </Row>
             </Container>
