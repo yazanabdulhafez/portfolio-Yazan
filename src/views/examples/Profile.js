@@ -140,7 +140,7 @@ class Profile extends React.Component {
                       <Col lg="9">
                         <p>
                           Starting a new path after a a great experiance at electrical engineering
-                          and working in the pivate sector for two years as electrical technician,
+                          and working in the private sector for two years as electrical technician,
                           so I hope that my dreams come true and become a great wep developer and programmer.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
