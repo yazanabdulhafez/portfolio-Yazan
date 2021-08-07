@@ -31,8 +31,8 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import landing from "assets/img/theme/landing.jpg";
-import profile from "assets/img/theme/profile.jpg";
+import portfolio from "assets/img/profileImages/portfolio.PNG";
+import profile from "assets/img/profileImages/profile.PNG";
 
 class CardsFooter extends React.Component {
   render() {
@@ -43,10 +43,10 @@ class CardsFooter extends React.Component {
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
-                  <Link to="/landing-page">
+                  <Link to="/portfolio">
                     <CardImg
                       alt="..."
-                      src={landing}
+                      src={portfolio}
                     />
                   </Link>
                 </Card>
@@ -76,22 +76,22 @@ class CardsFooter extends React.Component {
               <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button
                   className="btn-icon-only rounded-circle"
-                  color="twitter"
-                  href="https://twitter.com/creativetim"
+                  color="linkedin"
+                  href="https://www.linkedin.com/in/yazan-alkharabsheh"
                   id="tooltip475038074"
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-twitter" />
+                    <i className="fa fa-linkedin" />
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip475038074">
-                  Follow us
+                  Follow me
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://web.facebook.com/yazan.alkharsbsheh"
                   id="tooltip837440414"
                   target="_blank"
                 >
@@ -100,26 +100,27 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
-                  Like us
+                  lets connected 
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
-                  href="https://dribbble.com/creativetim"
+                  href="https://www.instagram.com/alkharabshehyazan/"
                   id="tooltip829810202"
                   target="_blank"
                 >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-dribbble" />
-                  </span>
+                   <i className="fa fa-instagram" />
+                      <span className="nav-link-inner--text d-lg-none ml-2">
+                        Instagram
+                      </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
-                  Follow us
+                  Follow me
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/yazanabdulhafez"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -133,20 +134,21 @@ class CardsFooter extends React.Component {
               </Col>
             </Row>
             <hr />
-            <Row className="align-items-center justify-content-md-between">
+            <Row className="justify-content-center">
               <Col md="6">
                 <div className="copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href="https://github.com/yazanabdulhafez"
                     target="_blank"
+                    style={{textAlign: 'center'}}
                   >
-                    Creative Tim
+                    Yazan Alkharabsheh
                   </a>
                   .
                 </div>
               </Col>
-              <Col md="6">
+              {/* <Col md="6">
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
@@ -181,7 +183,7 @@ class CardsFooter extends React.Component {
                     </NavLink>
                   </NavItem>
                 </Nav>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </footer>
