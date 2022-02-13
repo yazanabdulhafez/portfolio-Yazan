@@ -98,10 +98,10 @@ class Landing extends React.Component {
                         <span>Yazan Alkharabsheh</span>
                       </h1>
                       <p className="lead text-white">
-                        Soft ware development is great field,but its need to be patient
-                        and git new information in each comming day and keep developing your
+                        Software development is great field,but its need to be patient
+                        and git new information in each coming day and keep developing your
                         skills in programming,So I love this field and hope to be Great developer
-                        ensha allah.
+                        Ensha Allah.
                       </p>
                       <div className="btn-wrapper">
                         <Button

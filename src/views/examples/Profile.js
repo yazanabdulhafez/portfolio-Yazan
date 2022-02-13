@@ -87,9 +87,14 @@ class Profile extends React.Component {
                         <Button
                           className="mr-4"
                           color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
                           size="sm"
+                          href="#pablo"
+                          onClick={(e) => {
+                            e.preventDefault()
+                            window.open(
+                              "https://www.linkedin.com/in/yazan-alkharabsheh"
+                            );
+                          }}
                         >
                           Connect
                         </Button>
@@ -97,8 +102,15 @@ class Profile extends React.Component {
                           className="float-right"
                           color="default"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
                           size="sm"
+                          onClick={(e) => {
+
+                            e.preventDefault()
+                            window.open(
+                              "https://drive.google.com/file/d/1QTVFAD3ghqdJQePTI8YuqyiS0mWm_QkZ/view?usp=sharing"
+                            );
+                          }}
+
                         >
                           Message
                         </Button>
@@ -107,11 +119,11 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">3</span>
+                          <span className="heading">4</span>
                           <span className="description">Courses</span>
                         </div>
                         <div>
-                          <span className="heading">+6</span>
+                          <span className="heading">+13</span>
                           <span className="description">Projects</span>
                         </div>
                       </div>
@@ -139,11 +151,17 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          Starting a new path after a a great experiance at electrical engineering
+                          Starting a new path after a great experience at electrical engineering
                           and working in the private sector for two years as electrical technician,
                           so I hope that my dreams come true and become a great wep developer and programmer.
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => {
+                          e.preventDefault()
+                          window.open(
+                            "https://github.com/yazanabdulhafez?tab=repositories"
+                          );
+                        }
+                        }>
                           Show more
                         </a>
                       </Col>

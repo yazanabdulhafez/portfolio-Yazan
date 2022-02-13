@@ -74,12 +74,12 @@ class DemoNavbar extends React.Component {
             id="navbar-main"
           >
             <Container>
-              <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
+              {/* <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
                 <img
                   alt="..."
                   src={reactWhite}
                 />
-              </NavbarBrand>
+              </NavbarBrand> */}
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
@@ -185,10 +185,11 @@ class DemoNavbar extends React.Component {
                       <DropdownItem to="/profile-page" tag={Link}>
                         Profile
                       </DropdownItem>
-                      {/* <DropdownItem to="/login-page" tag={Link}>
-                        Login
+                       <DropdownItem to="/contact-me" tag={Link}>
+                        Contact Me
                       </DropdownItem>
-                      <DropdownItem to="/register-page" tag={Link}>
+
+                      {/*<DropdownItem to="/register-page" tag={Link}>
                         Register
                       </DropdownItem> */}
                     </DropdownMenu>
