@@ -94,7 +94,7 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A Greate webdevloper in soon future{" "}
+                        A Great web developer in soon future{" "}
                         <span>Yazan Alkharabsheh</span>
                       </h1>
                       <p className="lead text-white">
@@ -154,6 +154,7 @@ class Landing extends React.Component {
               <Row className="justify-content-center">
                 <Col lg="12">
                   <Row className="row-grid">
+                    
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
@@ -164,8 +165,8 @@ class Landing extends React.Component {
                             petserviescenter
                           </h6>
                           <p className="description mt-3">
-                            A website that provides all the nedded things for a pets,
-                            from the food and medical atention and adopting.
+                            A website that provides all the needed things for a pets,
+                            from the food and medical attention and adopting.
                           </p>
                           {/* <div>
                             <Badge color="primary" pill className="mr-1">
@@ -200,6 +201,10 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+
+                    {/* ************************************************************
+                    ************************************************************ */}
+
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
@@ -247,6 +252,10 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+
+                    {/* ************************************************************
+                    ************************************************************ */}
+
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
@@ -294,6 +303,10 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+
+                    {/* ************************************************************
+                    ************************************************************ */}
+
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
@@ -339,6 +352,10 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+
+                    {/* ************************************************************
+                    ************************************************************ */}
+
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
@@ -384,6 +401,201 @@ class Landing extends React.Component {
                         </CardBody>
                       </Card>
                     </Col>
+                    {/* ************************************************************
+                    ************************************************************ */}
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                        <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            Horned Beasts
+                          </h6>
+                          <p className="description mt-3">
+                            A website where the user can vote for the favorite beast from beasts gallery.
+                          </p>
+                          {/* <div>
+                            <Badge color="warning" pill className="mr-1">
+                              marketing
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              product
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              launch
+                            </Badge>
+                          </div> */}
+                          <img
+                            style={{ width: "100%" }}
+                            src={hornedbeasts}
+                            alt=""
+                          />
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault()
+                              window.open(
+                                "https://blissful-allen-bd06f2.netlify.app/"
+                              );
+
+                            }}
+                          >
+                            View the website
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+
+                    {/* ************************************************************
+                    ************************************************************ */}
+
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                        <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            Horned Beasts
+                          </h6>
+                          <p className="description mt-3">
+                            A website where the user can vote for the favorite beast from beasts gallery.
+                          </p>
+                          {/* <div>
+                            <Badge color="warning" pill className="mr-1">
+                              marketing
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              product
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              launch
+                            </Badge>
+                          </div> */}
+                          <img
+                            style={{ width: "100%" }}
+                            src={hornedbeasts}
+                            alt=""
+                          />
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault()
+                              window.open(
+                                "https://blissful-allen-bd06f2.netlify.app/"
+                              );
+
+                            }}
+                          >
+                            View the website
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+
+                    {/* ************************************************************
+                    ************************************************************ */}
+
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                        <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            Horned Beasts
+                          </h6>
+                          <p className="description mt-3">
+                            A website where the user can vote for the favorite beast from beasts gallery.
+                          </p>
+                          {/* <div>
+                            <Badge color="warning" pill className="mr-1">
+                              marketing
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              product
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              launch
+                            </Badge>
+                          </div> */}
+                          <img
+                            style={{ width: "100%" }}
+                            src={hornedbeasts}
+                            alt=""
+                          />
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault()
+                              window.open(
+                                "https://blissful-allen-bd06f2.netlify.app/"
+                              );
+
+                            }}
+                          >
+                            View the website
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+
+                    {/* ************************************************************
+                    ************************************************************ */}
+
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                        <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-warning text-uppercase">
+                            Horned Beasts
+                          </h6>
+                          <p className="description mt-3">
+                            A website where the user can vote for the favorite beast from beasts gallery.
+                          </p>
+                          {/* <div>
+                            <Badge color="warning" pill className="mr-1">
+                              marketing
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              product
+                            </Badge>
+                            <Badge color="warning" pill className="mr-1">
+                              launch
+                            </Badge>
+                          </div> */}
+                          <img
+                            style={{ width: "100%" }}
+                            src={hornedbeasts}
+                            alt=""
+                          />
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="#pablo"
+                            onClick={(e) => {
+                              e.preventDefault()
+                              window.open(
+                                "https://blissful-allen-bd06f2.netlify.app/"
+                              );
+
+                            }}
+                          >
+                            View the website
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+
                   </Row>
                 </Col>
               </Row>

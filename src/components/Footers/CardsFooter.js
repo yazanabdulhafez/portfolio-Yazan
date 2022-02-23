@@ -40,7 +40,7 @@ class CardsFooter extends React.Component {
       <>
         <footer className="footer has-cards">
           <Container className="container-lg">
-            <Row>
+            {/* <Row>
               <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
                   <Link to="/portfolio">
@@ -61,7 +61,7 @@ class CardsFooter extends React.Component {
                   </Link>
                 </Card>
               </Col>
-            </Row>
+            </Row> */}
           </Container>
           <Container>
             <Row className="row-grid align-items-center my-md">

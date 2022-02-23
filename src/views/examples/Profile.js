@@ -24,6 +24,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 import profile from "assets/img/profileImages/yazan3.jpg";
+import Img from "assets/img/profileImages/newImage.jpg"
 class Profile extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
@@ -34,7 +35,7 @@ class Profile extends React.Component {
     return (
       <>
         <DemoNavbar />
-        <main className="profile-page" ref="main">
+        <main className="profile-page" ref="main" >
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4">
@@ -63,9 +64,9 @@ class Profile extends React.Component {
               </svg>
             </div>
           </section>
-          <section className="section">
-            <Container>
-              <Card className="card-profile shadow mt--300">
+          <section className="section"style={{backgroundColor:"#FED1EF"}}>
+            <Container >
+              <Card className="card-profile shadow mt--300" style={{backgroundColor:"#FFF8F3"}} >
                 <div className="px-4">
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
@@ -158,11 +159,11 @@ class Profile extends React.Component {
                         <a href="#pablo" onClick={(e) => {
                           e.preventDefault()
                           window.open(
-                            "https://github.com/yazanabdulhafez?tab=repositories"
+                            "https://github.com/yazanabdulhafez"
                           );
                         }
                         }>
-                          Show more
+                          Go to GitHub Profile
                         </a>
                       </Col>
                     </Row>

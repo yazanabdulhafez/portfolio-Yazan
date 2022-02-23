@@ -173,12 +173,12 @@ class DemoNavbar extends React.Component {
                       </div>
                     </DropdownMenu>
                   </UncontrolledDropdown> */}
-                  <UncontrolledDropdown nav>
+                  <UncontrolledDropdown nav >
                     <DropdownToggle nav>
                       <i className="ni ni-collection d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Menu</span>
                     </DropdownToggle>
-                    <DropdownMenu>
+                    <DropdownMenu style={{backgroundColor:"#FED1EF"}}>
                     <DropdownItem to="/portfolio" tag={Link}>
                         Portfolio
                       </DropdownItem>
